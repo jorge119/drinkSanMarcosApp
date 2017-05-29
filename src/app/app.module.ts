@@ -10,6 +10,14 @@ import { ListPage } from '../pages/list/list';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+import { CloudSettings, CloudModule } from '@ionic/cloud-angular';
+
+const cloudSettings: CloudSettings = {
+  'core': {
+    'app_id': '5e16f6ca'
+  }
+};
+
 @NgModule({
   declarations: [
     MyApp,
@@ -19,7 +27,22 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp),
+    IonicModule.forRoot(MyApp, {
+      //change the root style of the app depending on the platform
+      platforms: {
+        ios: {
+          config: {
+            mode: 'ios'
+          }
+        },
+        android: {
+          config: {
+            mode: 'md'
+          }
+        }
+      }
+    }),
+    CloudModule.forRoot(cloudSettings)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
