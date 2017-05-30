@@ -6,7 +6,7 @@ import { ListPage } from '../pages/list/list';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-import {MainViewPage} from "../pages/mainView/mainView";
+import {MainViewPage} from "../pages/mainView/mainview-component";
 
 
 @Component({
