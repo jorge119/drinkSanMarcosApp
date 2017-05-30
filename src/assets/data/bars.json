@@ -4,9 +4,9 @@
     "name": "Taproom",
     "location": "San Marcos, TX",
     "description": "Burgers, babyback ribs & other American pub grub, plus over 100 types of beer, with sports on TVs.",
-    "picture": "src/main/resources/public/images/large-TapRoom.jpg",
+    "picture": "../../assets/images/large-TapRoom.jpg",
     "specials": [
-      {"id": 1, "type": "beer", "name": "Bud Light", "price": "$2.99", "image": "src/main/resources/public/images/specials/budLight.jpg"},
+      {"id": 1, "type": "beer", "name": "Bud Light", "price": "$2.99", "image": "assets/images/specials/budLight.jpg"},
       {"id": 2, "type": "beer", "name": "Coors Light", "price": "$2.99", "image": "src/main/resources/public/images/specials/coorsLight.jpg"},
       {"id": 3, "type": "beer", "name": "Dos Equis", "price": "$.99", "image": "src/main/resources/public/images/specials/dosEquis.png"}
     ],
@@ -18,7 +18,7 @@
     "name": "Nephew's",
     "location": "San Marcos, TX",
     "description": "Local bar and Nightlife",
-    "picture": "src/main/resources/public/images/nephews_resized.jpg",
+    "picture": "../../assets/images/nephews_resized.jpg",
     "specials": [
       {"id": 1, "type": "beer", "name": "Bud Light", "price": "$2.99", "image": "src/main/resources/public/images/specials/budLight.jpg"},
       {"id": 2, "type": "beer", "name": "Coors Light", "price": "$2.99", "image": "src/main/resources/public/images/specials/coorsLight.jpg"}
@@ -31,7 +31,7 @@
     "name": "Treff's Tavern",
     "location": "San Marcos, TX",
     "description": "Texas State Alumni owned & operated.",
-    "picture": "src/main/resources/public/images/treffs.jpg",
+    "picture": "../../assets/images/treffs.jpg",
     "specials": [
       {"id": 1, "type": "beer", "name": "Bud Light", "price": "$2.99", "image": "src/main/resources/public/images/specials/budLight.jpg"}
     ],
@@ -43,7 +43,7 @@
     "name": "Zelicks Icehouse",
     "location": "San Marcos, TX",
     "description": "Rough 'n' ready roadhouse bar set in a 1930s gas station with TVs, games, a pool table & a patio.",
-    "picture": "src/main/resources/public/images/zelicks.jpg",
+    "picture": "../../assets/images/zelicks.jpg",
     "specials": [
       {"id": 1, "type": "beer", "name": "Bud Light", "price": "$2.99", "image": "src/main/resources/public/images/specials/budLight.jpg"},
       {"id": 2, "type": "beer", "name": "Coors Light", "price": "$2.99", "image": "src/main/resources/public/images/specials/coorsLight.jpg"},
@@ -57,7 +57,7 @@
     "name": "Railyard",
     "location": "San Marcos, TX",
     "description": "Casual meeting point for sports & beers, with a garden area for pool, ping pong & horseshoes.",
-    "picture": "src/main/resources/public/images/large-railyard.jpg",
+    "picture": "../../assets/images/large-railyard.jpg",
     "specials": [],
     "email": "testemail@square.com",
     "phone": "555-555"
@@ -67,7 +67,7 @@
     "name": "Rooftop On the Square",
     "location": "San Marcos, TX",
     "description": "San Marco’s Premier Bar and Lounge.",
-    "picture": "src/main/resources/public/images/large-Rooftop.jpg",
+    "picture": "../../assets/images/large-Rooftop.jpg",
     "specials": [],
     "email": "testemail@square.com",
     "phone": "555-555"
@@ -77,7 +77,7 @@
     "name": "Bobcat Nation Sports Bar & Grill",
     "location": "San Marcos, TX",
     "description": "Bobcat Nation is a locally-owned sports bar and grill, featuring a full menu and a complete bar.",
-    "picture": "src/main/resources/public/images/large-bobcatnationdoor.jpg",
+    "picture": "../../assets/images/large-bobcatnationdoor.jpg",
     "specials": [],
     "email": "testemail@square.com",
     "phone": "555-555"
@@ -87,7 +87,7 @@
     "name": "Mayloo's",
     "location": "San Marcos, TX",
     "description": "The place to be on the square! Come early and grab a swing on the back deck. Daily drink specials!",
-    "picture": "src/main/resources/public/images/mayloos.jpg",
+    "picture": "../../assets/images/mayloos.jpg",
     "specials": [],
     "email": "testemail@square.com",
     "phone": "555-555"

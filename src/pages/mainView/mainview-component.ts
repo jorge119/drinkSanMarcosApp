@@ -3,7 +3,6 @@
  */
 import {Component, OnInit} from '@angular/core';
 import { MainViewDataService } from  './mainview-data.service';
-import {Observable} from "rxjs/Observable";
 
 @Component({
   selector: 'page-mainView',
@@ -18,6 +17,7 @@ export class MainViewPageComponent implements OnInit{
 
   ngOnInit() {
     console.log('The component is initialized');
+    //get the bars from the json file
     this.mainViewDataService.getBars().subscribe(data => this.bars = data);
   }
 }

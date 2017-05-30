@@ -13,18 +13,36 @@
 </ion-header>
 
 
-<ion-content padding>
+<ion-content >
 
-  <h3>Welcome to your first Ionic app!</h3>
-
-  <p>
-    This starter project is our way of helping you get a functional app running in record time.
-  </p>
-  <p>
-    Follow along on the tutorial section of the Ionic docs!
-  </p>
-  <p>
-    <button ion-button color="primary" menuToggle>Toggle Menu</button>
-  </p>
+  <span *ngFor="let bar of bars">
+    <ion-card>
+      <ion-item><h2>{{bar.name}}</h2>
+    <p>{{bar.location}}</p></ion-item>
+      <img [src]="bar.picture"/>
+      <ion-card-content>
+        <p>{{bar.description}}</p>
+      </ion-card-content>
+      <ion-row>
+        <ion-col>
+      <button ion-button icon-left clear small>
+        <ion-icon name="thumbs-up"></ion-icon>
+        <div>12 Likes</div>
+      </button>
+    </ion-col>
+    <ion-col>
+      <button ion-button icon-left clear small>
+        <ion-icon name="text"></ion-icon>
+        <div>4 Comments</div>
+      </button>
+    </ion-col>
+    <ion-col center text-center>
+      <ion-note>
+        11h ago
+      </ion-note>
+    </ion-col>
+  </ion-row>
+    </ion-card>
+  </span>
 
 </ion-content>

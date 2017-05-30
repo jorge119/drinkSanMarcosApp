@@ -21,9 +21,9 @@ export class MainViewDataService {
       .catch(this.handleError);
   }
 
+  //Private functions
   private extractData(res: Response) {
-    console.log(res.json().data);
-     return res.json().data;
+     return res.json();
   }
 
   private handleError(error: Response | any) {
