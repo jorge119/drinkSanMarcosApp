@@ -12,7 +12,6 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { CloudSettings, CloudModule } from '@ionic/cloud-angular';
-//import {MainViewDataService} from "../pages/mainView/mainview-data.service";
 import { HttpModule } from '@angular/http';
 
 
