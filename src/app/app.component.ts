@@ -6,7 +6,9 @@ import { ListPage } from '../pages/list/list';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-import {MainViewPage} from "../pages/mainView/mainview-component";
+
+//Components
+import {MainViewPageComponent} from "../pages/mainView/mainview-component";
 
 
 @Component({
@@ -16,20 +18,20 @@ export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
   // make MainViewPage the root (or first) page
-  rootPage = MainViewPage;
+  rootPage = MainViewPageComponent;
   pages: Array<{title: string, component: any}>;
 
   constructor(
     public platform: Platform,
     public menu: MenuController,
     public statusBar: StatusBar,
-    public splashScreen: SplashScreen
+    public splashScreen: SplashScreen,
   ) {
     this.initializeApp();
 
     // set our app's pages
     this.pages = [
-      { title: 'mainView', component: MainViewPage },
+      { title: 'mainView', component: MainViewPageComponent },
       { title: 'My First List', component: ListPage }
     ];
   }

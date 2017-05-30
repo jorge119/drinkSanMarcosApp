@@ -1,17 +1,19 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
-import { MyApp } from '../app.component';
+import { MyApp } from './app.component';
 
 
-import {MainViewPage} from "../../pages/mainView/mainview-component";
-import { ItemDetailsPage } from '../../pages/item-details/item-details';
-import { ListPage } from '../../pages/list/list';
+import {MainViewPageComponent} from "../pages/mainView/mainview-component";
+import { ItemDetailsPage } from '../pages/item-details/item-details';
+import { ListPage } from '../pages/list/list';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { CloudSettings, CloudModule } from '@ionic/cloud-angular';
+//import {MainViewDataService} from "../pages/mainView/mainview-data.service";
+import { HttpModule } from '@angular/http';
 
 
 const cloudSettings: CloudSettings = {
@@ -23,12 +25,13 @@ const cloudSettings: CloudSettings = {
 @NgModule({
   declarations: [
     MyApp,
-    MainViewPage,
+    MainViewPageComponent,
     ItemDetailsPage,
     ListPage
   ],
   imports: [
     BrowserModule,
+    HttpModule,
     IonicModule.forRoot(MyApp, {
       //change the root style of the app depending on the platform
       platforms: {
@@ -49,7 +52,7 @@ const cloudSettings: CloudSettings = {
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    MainViewPage,
+    MainViewPageComponent,
     ItemDetailsPage,
     ListPage
   ],
