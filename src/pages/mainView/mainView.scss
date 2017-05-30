@@ -1,11 +1,21 @@
 page-mainView {
 
 }
+//Styling for Android
+.content-md {
+  background-color: #eeeeee;
+}
 .card-md {
   width: 100%;
-  margin-left: 0%;
+  margin-left: 0;
+}
+
+//Styling for ios
+.content-ios {
+  background-color: #eeeeee;
 }
 .card-ios {
   width: 100%;
-  margin-left: 0%;
+  margin-left: 0;
+
 }
