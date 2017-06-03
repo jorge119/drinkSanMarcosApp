@@ -66,7 +66,7 @@
     "id": "rooftop",
     "name": "Rooftop On the Square",
     "location": "San Marcos, TX",
-    "description": "San Marco’s Premier Bar and Lounge.",
+    "description": "San Marcos' Premier Bar and Lounge.",
     "picture": "assets/images/large-Rooftop.jpg",
     "specials": [],
     "email": "testemail@square.com",
@@ -78,6 +78,106 @@
     "location": "San Marcos, TX",
     "description": "Bobcat Nation is a locally-owned sports bar and grill, featuring a full menu and a complete bar.",
     "picture": "assets/images/large-bobcatnationdoor.jpg",
+    "specials": [],
+    "email": "testemail@square.com",
+    "phone": "555-555"
+  },
+  {
+    "id": "mayloos",
+    "name": "Mayloo's",
+    "location": "San Marcos, TX",
+    "description": "The place to be on the square! Come early and grab a swing on the back deck. Daily drink specials!",
+    "picture": "assets/images/mayloos.jpg",
+    "specials": [],
+    "email": "testemail@square.com",
+    "phone": "555-555"
+  },
+  {
+    "id": "mayloos",
+    "name": "Mayloo's",
+    "location": "San Marcos, TX",
+    "description": "The place to be on the square! Come early and grab a swing on the back deck. Daily drink specials!",
+    "picture": "assets/images/mayloos.jpg",
+    "specials": [],
+    "email": "testemail@square.com",
+    "phone": "555-555"
+  },
+  {
+    "id": "mayloos",
+    "name": "Mayloo's",
+    "location": "San Marcos, TX",
+    "description": "The place to be on the square! Come early and grab a swing on the back deck. Daily drink specials!",
+    "picture": "assets/images/mayloos.jpg",
+    "specials": [],
+    "email": "testemail@square.com",
+    "phone": "555-555"
+  },
+  {
+    "id": "mayloos",
+    "name": "Mayloo's",
+    "location": "San Marcos, TX",
+    "description": "The place to be on the square! Come early and grab a swing on the back deck. Daily drink specials!",
+    "picture": "assets/images/mayloos.jpg",
+    "specials": [],
+    "email": "testemail@square.com",
+    "phone": "555-555"
+  },
+  {
+    "id": "mayloos",
+    "name": "Mayloo's",
+    "location": "San Marcos, TX",
+    "description": "The place to be on the square! Come early and grab a swing on the back deck. Daily drink specials!",
+    "picture": "assets/images/mayloos.jpg",
+    "specials": [],
+    "email": "testemail@square.com",
+    "phone": "555-555"
+  },
+  {
+    "id": "mayloos",
+    "name": "Mayloo's",
+    "location": "San Marcos, TX",
+    "description": "The place to be on the square! Come early and grab a swing on the back deck. Daily drink specials!",
+    "picture": "assets/images/mayloos.jpg",
+    "specials": [],
+    "email": "testemail@square.com",
+    "phone": "555-555"
+  },
+  {
+    "id": "mayloos",
+    "name": "Mayloo's",
+    "location": "San Marcos, TX",
+    "description": "The place to be on the square! Come early and grab a swing on the back deck. Daily drink specials!",
+    "picture": "assets/images/mayloos.jpg",
+    "specials": [],
+    "email": "testemail@square.com",
+    "phone": "555-555"
+  },
+  {
+    "id": "mayloos",
+    "name": "Mayloo's",
+    "location": "San Marcos, TX",
+    "description": "The place to be on the square! Come early and grab a swing on the back deck. Daily drink specials!",
+    "picture": "assets/images/mayloos.jpg",
+    "specials": [],
+    "email": "testemail@square.com",
+    "phone": "555-555"
+  },
+  {
+    "id": "mayloos",
+    "name": "Mayloo's",
+    "location": "San Marcos, TX",
+    "description": "The place to be on the square! Come early and grab a swing on the back deck. Daily drink specials!",
+    "picture": "assets/images/mayloos.jpg",
+    "specials": [],
+    "email": "testemail@square.com",
+    "phone": "555-555"
+  },
+  {
+    "id": "mayloos",
+    "name": "Mayloo's",
+    "location": "San Marcos, TX",
+    "description": "The place to be on the square! Come early and grab a swing on the back deck. Daily drink specials!",
+    "picture": "assets/images/mayloos.jpg",
     "specials": [],
     "email": "testemail@square.com",
     "phone": "555-555"

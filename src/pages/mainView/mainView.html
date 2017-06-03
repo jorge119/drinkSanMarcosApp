@@ -15,25 +15,27 @@
 
 <ion-content >
 
-  <span *ngFor="let bar of bars">
+ <span *ngFor="let bar of bars">
     <ion-card>
-      <ion-item><h2>{{bar.name}}</h2>
-    <p>{{bar.location}}</p></ion-item>
-      <img [src]="bar.picture"/>
+      <ion-item>
+        <h2>{{bar.name}}</h2>
+        <p>{{bar.location}}</p>
+      </ion-item>
+      <img [src]="bar.picture">
       <ion-card-content>
         <p>{{bar.description}}</p>
       </ion-card-content>
       <ion-row>
         <ion-col>
       <button ion-button icon-left clear small>
-        <ion-icon name="thumbs-up"></ion-icon>
-        <div>12 Likes</div>
+        <ion-icon name="beer"></ion-icon>
+        <div>Specials</div>
       </button>
     </ion-col>
     <ion-col>
       <button ion-button icon-left clear small>
-        <ion-icon name="text"></ion-icon>
-        <div>4 Comments</div>
+        <ion-icon name="navigate"></ion-icon>
+        <div>Directions</div>
       </button>
     </ion-col>
     <ion-col center text-center>
@@ -41,8 +43,8 @@
         11h ago
       </ion-note>
     </ion-col>
-  </ion-row>
+      </ion-row>
     </ion-card>
-  </span>
+ </span>
 
 </ion-content>
